@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(/public/timer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    /* opacity: 30%; */
+}
+.nextContainer{
+    align-items: center;
+    /* border: 2px solid rgb(5, 89, 214); */
+    border-radius: 10px;
+    width: 60vw;
+    height: 70vh;
+    box-shadow: 1px 0px 10px 1px;
+    background-color: rgb(210, 226, 240);
+    opacity: 90%;
+    
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 5vh;
+}
+.inputText{
+    display: flex;
+    margin-top: 43px;
+
+}
+.ipt{
+    height: 30px;
+    width: 40px;
+    border-style: none;
+    background-color: rgb(234, 238, 232);
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.para{
+    margin-top: 0;
+}
+.set{
+    display: flex;
+    margin-right: 92px;
+    font-size: 2rem;
+    /* color: rgb(89, 255, 47); */
+}
